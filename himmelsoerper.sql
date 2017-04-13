@@ -42,3 +42,13 @@ INSERT INTO himmelskoerper(id, typ, name, radius, tagnachtzyklus, lebenszeit) VA
 (7, 3, 'Phobos', 11.1, NULL, NULL),
 (8, 3, 'Deimos', 6.2, NULL, NULL)
 ;
+
+INSERT INTO satellit(basis, trabant) VALUES
+(1, 2),
+(1, 3),
+(1, 4),
+(1, 5),
+(4, 6),
+(5, 7),
+(5, 8);
+commit;

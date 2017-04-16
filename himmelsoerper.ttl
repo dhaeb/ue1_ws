@@ -1,0 +1,78 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix iwi: <http://wifa.uni-leipzig.de/semweb/> .
+
+<http://wifa.uni-leipzig.de/semweb/Himmelskoerper> a rdfs:Class .
+<http://wifa.uni-leipzig.de/semweb/Stern>
+  a rdfs:Class ;
+  rdfs:subClassOf <http://wifa.uni-leipzig.de/semweb/Himmelskoerper> .
+
+<http://wifa.uni-leipzig.de/semweb/Trabant>
+  a rdfs:Class ;
+  rdfs:subClassOf <http://wifa.uni-leipzig.de/semweb/Himmelskoerper> .
+
+<http://wifa.uni-leipzig.de/semweb/Planet>
+  a rdfs:Class ;
+  rdfs:subClassOf <http://wifa.uni-leipzig.de/semweb/Himmelskoerper> .
+
+<http://wifa.uni-leipzig.de/semweb/Asteroid>
+  a rdfs:Class ;
+  rdfs:subClassOf <http://wifa.uni-leipzig.de/semweb/Himmelskoerper> .
+
+<http://wifa.uni-leipzig.de/semweb/satellit>
+  a rdfs:Property ;
+  rdfs:domain <http://wifa.uni-leipzig.de/semweb/Himmelskoerper> ;
+  rdfs:range <http://wifa.uni-leipzig.de/semweb/Himmelskoerper> .
+
+<http://wifa.uni-leipzig.de/semweb/lebenszeit>
+  a rdfs:Property ;
+  rdfs:domain <http://wifa.uni-leipzig.de/semweb/Stern> ;
+  rdfs:range xsd:double .
+
+<http://wifa.uni-leipzig.de/semweb/tagnachtzyklus>
+  a rdfs:Property ;
+  rdfs:domain <http://wifa.uni-leipzig.de/semweb/Planet> ;
+  rdfs:range xsd:double .
+
+<http://wifa.uni-leipzig.de/semweb/radius>
+  a rdfs:Property ;
+  rdfs:domain <http://wifa.uni-leipzig.de/semweb/Himmelskoerper> ;
+  rdfs:range xsd:double .
+
+<http://wifa.uni-leipzig.de/semweb/Sonne>
+  iwi:radius 6.957000e+5 ;
+  iwi:lebenszeit 6.000000e+9 ;
+  iwi:satellit iwi:Merkur, iwi:Venus, iwi:Erde, iwi:Mars .
+
+iwi:Merkur
+  iwi:radius 2.439700e+3 ;
+  iwi:tagnachtzyklus 1.407600e+3 .
+
+iwi:Venus
+  iwi:radius 6.051900e+3 ;
+  iwi:tagnachtzyklus 5.832450e+3 .
+
+iwi:Erde
+  iwi:radius 6.372800e+3 ;
+  iwi:satellit iwi:Mond ;
+  iwi:tagnachtzyklus 2.400000e+1 .
+
+iwi:Mars
+  iwi:radius 3.402500e+3 ;
+  iwi:satellit iwi:Phobos, iwi:Deimos ;
+  iwi:tagnachtzyklus 2.461667e+1 .
+
+iwi:Mond
+  iwi:name "Mond"@de, "Moon"@en ;
+  a iwi:Trabant ;
+  iwi:radius 1.737100e+3 .
+
+iwi:Phobos
+  iwi:name "Phobos" ;
+  iwi:radius 1.110000e+1 ;
+  a iwi:Trabant .
+
+iwi:Deimos
+  iwi:name "Deimos" ;
+  iwi:radius 6.200000e+0 ;
+  a iwi:Trabant .

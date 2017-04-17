@@ -1,0 +1,71 @@
+{
+	"Himmelskörper":"Stern",
+	"Name":"Sonne",
+	"Radius":6957e5,
+	"Tag-Nacht Zyklus":null,
+	"Restlebensdauer":6e9,
+	"Umkreist":null
+}
+
+{
+	"Himmelskörper":"Planet",
+	"Name":"Merkur",
+	"Radius":2439.7,
+	"Tag-Nacht Zyklus":"1407.6,
+	"Restlebensdauer":null,
+	"Umkreist":"Sonne"
+}
+
+{
+	"Himmelskörper":"Planet",
+	"Name":"Venus",
+	"Radius":6051.9,
+	"Tag-Nacht Zyklus":5832.45,
+	"Restlebensdauer":null,
+	"Umkreist":"Sonne"
+}
+
+{
+	"Himmelskörper":"Planet",
+	"Name":"Erde",
+	"Radius":6372.8,
+	"Tag-Nacht Zyklus":24,
+	"Restlebensdauer":null,
+	"Umkreist":"Sonne"
+}
+
+{
+	"Himmelskörper":"Trabant",
+	"Name":"Mond",
+	"Radius":1737.1,
+	"Tag-Nacht Zyklus":null,
+	"Restlebensdauer":null,
+	"Umkreist":"Erde"
+}
+
+{
+	"Himmelskörper":"Planet",
+	"Name":"Mars",
+	"Radius":3402.5,
+	"Tag-Nacht Zyklus":24.616666666,
+	"Restlebensdauer":null,
+	"Umkreist":"Sonne"
+}
+
+{
+	"Himmelskörper":"Trabant",
+	"Name":"Phobos",
+	"Radius":11.1,
+	"Tag-Nacht Zyklus":null,
+	"Restlebensdauer":null,
+	"Umkreist":"Mars"
+}
+
+{
+	"Himmelskörper":"Trabant",
+	"Name":Deimos,
+	"Radius":6.2,
+	"Tag-Nacht Zyklus":null,
+	"Restlebensdauer":null,
+	"Umkreist":"Mars"
+}

@@ -1,0 +1,50 @@
+{
+	"Himmelskoerper" : "Sonne",
+	"Name":"Sonne",
+	"Radius":6957e5,
+	"Restlebensdauer":6e9,
+	"Planeten" : [
+
+	{
+		"Himmelskoerper":"Planet",
+		"Name":"Merkur",
+		"Radius":2439.7,
+		"Tag-Nacht Zyklus":1407.6
+	},
+	{
+		"Himmelskoerper":"Planet",
+		"Name":"Venus",
+		"Radius":6051.9,
+		"Tag-Nacht Zyklus":5832.45
+	},
+	{
+		"Himmelskoerper":"Planet",
+		"Name":"Erde",
+		"Radius":6372.8,
+		"Tag-Nacht Zyklus":24,
+		"Trabant" : [
+                {
+                        "Himmelskoerper":"Trabant",
+                        "Name":"Mond",
+                        "Radius":1737.1
+                }]
+
+	},	
+	{
+		"Himmelskoerper":"Planet",
+		"Name":"Mars",
+		"Radius":3402.5,
+		"Tag-Nacht Zyklus":24.616666666,
+		"Trabant" : [
+		{
+		        "Himmelskoerper":"Trabant",
+		        "Name":"Phobos",
+		        "Radius":11.1
+		},
+		{
+	        	"Himmelskoerper":"Trabant",
+	        	"Name":"Deimos",
+		        "Radius":6.2
+		}]
+	}]
+}

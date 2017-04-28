@@ -1,0 +1,5 @@
+Die Modellierungsaufgabe im Übungsskript soll entsprechend entweder in relationalen (MariaDB / phpmyadmin), graphischen (Neo4J) oder hierarchischen Datenmodellen (XML, JSON) und entsprechenden Werkzeugen realisiert werden.
+
+Ich empfehle die Übung sowohl mit JSON als auch mit MariaDB oder Neo4J zu lösen. 
+
+Achten Sie darauf, Ihre Ergebnisdatei unter Ihrem Nutzerverzeichnis auf der VM abzuspeichern (z.B. C:\Users\wir10hkw).
